@@ -1,36 +1,65 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Bar Agency Landing</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bar Agency - A collective of developers, designers and project managers with a combined experience of over 50+ years. Hire us for your next project!">
+
+  <meta property="og:title" content="Bar Agency // We’ve got the drinks. You bring the glasses.">
+  <meta property="og:description" content="Bar Agency - A collective of developers, designers and project managers with a combined experience of over 50+ years. Hire us for your next project!">
+  <meta property="og:image" content="http://bar.agency/images/facebook.jpg">
+  <meta property="og:url" content="http://bar.agency">
+
+  <title>Bar Agency // We’ve got the drinks. You bring the glasses.</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
 
 </head>
-<body>
-<!-- partial:index.partial.html -->
-<form action="https://formspree.io/xpzjelya" method="POST">
-  <div class="container">
-    <div class="close"></div>
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
+
+  <body>
+
+  <form action="https://formspree.io/xpzjelya" method="POST">
+    <div class="container">
+      <div class="close"></div>
+
+      <div class="form-element">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name">
+      </div>
+      
+      <div class="form-element">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="_replyto">
+      </div>
+
+      <div class="form-element">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject">
+      </div>
+      
+      <div class="form-element">
+        <label for="message">Message</label>
+        <textarea name="message" id="message"></textarea>
+      </div>
+      
+      <input type="submit" value="Send">
+    </div>
+  </form>
+
+  <div class="neon-wrapper">
+    <h1 class="neon-text">
+      <span>BAR</span> <span>AGENCY</span>
+    </h1>
   </div>
-</form>
 
-<div class="neon-wrapper">
-  <h1 class="neon-text">
-    <span>BAR</span> <span>AGENCY</span>
-  </h1>
-</div>
+  <h2>We are a collective of web developers, designers and technical managers with a collective 30+ years experience. Let us help you with your next project.
+    <div id="contact">
+      Contact Us <i class="fas fa-envelope"></i>
+    </div>
+  </h2>
 
-<h2>We are a collective of web developers, designers and technical managers with a collective 30+ years experience. Let us help you with your next project.
-  <div id="contact">
-    Contact Us <i class="fas fa-envelope"></i>
-  </div>
-</h2>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script><script  src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
+  <script  src="./script.js"></script>
 
-</body>
+  </body>
 </html>
