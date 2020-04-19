@@ -134,11 +134,13 @@ form .container .close:before {
 form .container .close:after {
   transform: rotate(-45deg);
 }
+form .container .form-element{
+  margin: 0 0 10px;  
+}
 form .container input, form .container textarea {
   border: none;
   font-size: 20px;
   padding: 10px;
-  margin: 0 0 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
 }
 @keyframes blink {
